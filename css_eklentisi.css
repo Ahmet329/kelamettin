@@ -6,3 +6,32 @@ h1{
     border-top-color: fuchsia;
     text-align: center;
 }
+td{
+    color: crimson;
+    font-size: 45px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+th{
+    color: red;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    
+}
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+a{
+    color: rgb(18, 32, 236);
+    font-size: 25px;
+}
+button{
+    background-color: rgb(91, 209, 130);
+}
