@@ -2,5 +2,7 @@ body{
     background-color: black;
 }
 h1{
-    border: 1px  fuchsia;
+    color:#00FF78;
+    border-top-color: fuchsia;
+    text-align: center;
 }
