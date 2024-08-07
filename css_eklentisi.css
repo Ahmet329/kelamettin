@@ -35,3 +35,52 @@ a{
 button{
     background-color: rgb(91, 209, 130);
 }
+
+			
+.menu
+	{
+		list-style:none;
+		margin:0; padding:0;
+	}
+			
+	.menu li
+	{
+		float:right;
+		margin:5px;
+       color: rgb(122, 66, 89);
+	}
+
+	.menu a
+	{
+		text-decoration:none;
+		color:rgb(33, 214, 160);
+		font-weight:bold;
+		border:2px solid rgb(21, 58, 161);
+		border-top:5px solid rgb(7, 117, 145);
+		background:rgb(13, 64, 160);
+			width:150px;
+			display:block;
+			line-height:25px;
+			padding:5px;
+			text-align:center;
+		}
+			
+		.menu a:hover
+		{
+			margin-top:5px;
+			border-top:5px solid #F06;
+			color:rgb(161, 138, 147);
+		}
+.profil p
+{
+	float:left;
+	margin: auto;
+    color: rgb(167, 94, 123);
+    font-size: 50px;
+    text-decoration: none;
+    
+}
+.profil li
+{
+    text-decoration: none;
+}
