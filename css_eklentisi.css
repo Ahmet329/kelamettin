@@ -3,8 +3,15 @@ body{
 }
 h1{
     color:#00FF78;
-    border-top-color: fuchsia;
     text-align: center;
+}
+p{
+	color: aqua;
+	font-size: 25px;
+}
+th{
+	color: #ffe600;
+	font-size: 45px;
 }
 td{
     color: crimson;
@@ -12,75 +19,38 @@ td{
     text-align: center;
     vertical-align: middle;
     border: 1px solid gray;
-    border-collapse: collapse;
 
 }
-th{
-    color: red;
-    font-size: 28px;
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid gray;
-    border-collapse: collapse;
-    
-}
-table{
-    border: 1px solid gray;
-    border-collapse: collapse;
-}
-a{
-    color: rgb(18, 32, 236);
-    font-size: 25px;
-}
-button{
-    background-color: rgb(91, 209, 130);
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: hidden;
+  float: right;
 }
 
-			
-.menu
-	{
-		list-style:none;
-		margin:0; padding:0;
-	}
-			
-	.menu li
-	{
-		float:right;
-		margin:5px;
-       color: rgb(122, 66, 89);
-	}
-
-	.menu a
-	{
-		text-decoration:none;
-		color:rgb(33, 214, 160);
-		font-weight:bold;
-		border:2px solid rgb(21, 58, 161);
-		border-top:5px solid rgb(7, 117, 145);
-		background:rgb(13, 64, 160);
-			width:150px;
-			display:block;
-			line-height:25px;
-			padding:5px;
-			text-align:center;
-		}
-			
-		.menu a:hover
-		{
-			margin-top:5px;
-			border-top:5px solid #F06;
-			color:rgb(161, 138, 147);
-		}
-.profil p
-{
-	float:left;
-	margin: auto;
-    color: rgb(167, 94, 123);
-    font-size: 50px;
-    text-decoration: none;
-    
+.icon-bar a {
+  text-align: center;
+  padding: 12px 14px ;
+  transition: all 0.1s ease;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  
+  
 }
-.profil li
-{
-    text-decoration: none;
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+#giris_butonu{
+	background-color: #65d398;
+	width: 50%;
+	height: 60px;
+	font-size: x-large;
+}
+#giris_butonu:hover{
+	background-color: rgb(6, 252, 199)
+	
 }
